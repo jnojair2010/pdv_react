@@ -1,0 +1,51 @@
+header{
+    width: 100%;
+    height: 50px;
+    margin-top: 0px;
+    padding-top: 20px;
+    background-color: rgb(34, 31, 31);
+}
+header nav ul{
+    width: 50%;
+    margin-top: 0px;
+    display: grid;
+    grid-auto-flow: column;
+    color: white;
+
+}
+header nav ul li{
+    width: 250px;
+    height: 30px;
+    padding-top: 5px;
+    margin-left:5px;
+    margin-right: 5px;
+    display: inline-block;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 1px solid white;
+    text-align: center;
+    
+}
+header nav ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+#li-venda{
+
+}
+.subMenuOn{
+    display: none;
+    
+}
+.subMenuOff{
+    width: 250px;
+    background-color: brown;
+    margin:12px 0px 0px 0px;
+    padding: 0px;
+    display: grid;
+    grid-auto-flow: row;
+}
+.subMenuOff li{
+    margin:2px 0px 0px 0px;
+}
