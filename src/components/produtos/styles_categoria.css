@@ -1,0 +1,29 @@
+#divCategoria{
+    display: grid;
+    grid-template-rows: auto;
+}
+
+#titulo{
+    width: 80%;
+    height:50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    margin: 15px auto auto auto;
+    background-color: #0B2545;
+    box-shadow: 1px 1px 5px 1px white;
+    color:white;
+}
+#formCategoria{
+    width: 80%;
+    height: 200px;
+    padding: 50px auto 50px auto;
+    background-color: aliceblue;
+    margin: 15px auto auto auto;
+}
+.inputCategoria{
+    display: grid;
+    grid-template-columns: 90px 91%;
+    margin: 22px auto 30px 30px;
+}

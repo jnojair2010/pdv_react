@@ -18,8 +18,9 @@
     font-size: 30px;
     padding-top: 5px;
     margin: 15px auto auto auto;
-    background-color: #5F9EA0;
-    box-shadow: 1px 1px 8px 3px white;
+    background-color: #0B2545;
+    box-shadow: 1px 1px 5px 1px white;
+    color:white;
 }
 
 .span{

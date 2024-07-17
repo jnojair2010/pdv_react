@@ -11,7 +11,7 @@ import { Venda } from './templates/Venda';
 import { Login } from './templates/Login';
 import Menu from './templates/Menu/Menu';
 import { FormCadastroProduto } from './components/produtos/FormCadastroProduto';
-import { CadastarCategoria } from './components/cadCategoria/cadCategoria';
+import { CadastarCategoria } from './components/produtos/CadCategoria';
 import { ConsultarProdutos } from './components/consulProdutos/ConsultarProdutos';
 
 const root = ReactDOM.createRoot(
