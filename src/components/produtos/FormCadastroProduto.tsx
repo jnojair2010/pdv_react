@@ -5,7 +5,7 @@ import Usuario from'../model/Usuario';
 
 export const FormCadastroProduto = () =>{
     return (
-        <>
+        <div>
             <h1 id="titulo">cadastar produtos</h1>
             <div className="divForm">
                 <form id="form">
@@ -32,7 +32,7 @@ export const FormCadastroProduto = () =>{
                         <span className="span">Category:</span>
                         </div>
                         <select className="inputs">
-                            <option>Select Category</option>
+                            <option >Select Category</option>
                         </select>
                     </div>
                     <div className="divInputs">
@@ -92,7 +92,7 @@ export const FormCadastroProduto = () =>{
                     </div>
                 </form>
             </div>
-        </>
+        </div>
 
     );
 }

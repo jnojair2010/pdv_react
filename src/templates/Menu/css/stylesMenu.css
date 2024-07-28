@@ -371,19 +371,19 @@
         display: block;
         margin-top: -18px;
         float: right;
-        position: relative;
         margin-right: -45px;
         cursor: pointer;
         padding: 0px;
         background-image:  url("../../../icon/menuMobile.svg");
         background-repeat: no-repeat;
         background-size: 45px 45px;
+        z-index: 2;
+
     }
 
 
     #navMobile{
         display: block;
-
     }
     .menu{
         margin-left: -200px;
@@ -403,16 +403,21 @@
         height: 100vh;
         margin-top: 2px;
         transition-duration: 1.5s;
+        z-index: 3;
+        position: absolute;
     }
     .menuMobileAtivo{
         width: 200px;
         height: 100vh;
         margin-top: 2px;
+        z-index: 3;
+        position: absolute;
         transition-duration: 1.5s;
     }
     #navMobile{
         width: 200px;
         padding-top: 0px;
+    
     }
     #navMobile ul{
         width: 97%;

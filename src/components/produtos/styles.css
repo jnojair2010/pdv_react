@@ -361,6 +361,41 @@
     }
 }
 
+@media (max-width: 799px) {
+    #titulo{
+        width: 98%;
+        font-size: 25px;
+        padding-top: 15px;
+    }
+    .divInputs{
+        width:98%;
+        display:block;
+    }
+    .divInputs div{
+        margin: 0px;
+        padding: 0px;
+        margin-left: 5px;
+    }
+    .span{
+        width: 98%;
+        font-size: 12px;
+        height: 10px;
+        text-align: left;
+        border: none;
+        box-shadow: none;
+    }
+    .inputs{
+        width: 90%;
+        height: 30px;
+        height: 35px;
+        margin-top: 12px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        border: solid 1px black;
+        margin-left: 5px;
+    }
+}
+
 /*
 @media (max-width: 3840px) {
 
