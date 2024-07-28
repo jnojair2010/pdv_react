@@ -1,0 +1,49 @@
+
+#titulo{
+    width: 80%;
+    height:50px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 30px;
+    padding-top: 5px;
+    margin: 15px auto auto auto;
+    background-color: #0B2545;
+    box-shadow: 1px 1px 5px 1px white;
+    color:white;
+}
+#formConsultProduto{
+    width: 79%;
+    height: 700px;
+    padding: 10px ;
+    background-color: aliceblue;
+    margin: 15px auto auto auto;
+    display: grid;
+    grid-template-columns: 50% 50%;
+    
+}
+.idvsInputConsultProduto{
+    width: 95%;
+    display: grid;
+    grid-template-columns: 15% 60% 20%;
+    padding: 10px;
+    border: 2px solid #708090 ;
+    margin: 0px auto auto 8px;
+}
+.btnConult{
+    width: 180px;
+    height: 40px;
+    margin-left: 30px;
+    margin-top: 4px;
+    background-color: #00b8d4 ;
+    font-size: 25px;
+    cursor: pointer;
+} 
+.btnConult:hover{
+    width: 185px;
+    margin-top: 1px;
+    height: 43px;
+    margin-left: 27px;
+    box-shadow: 1px 1px 5px 1px #708090;
+    color: white;
+    background-color: #008080;
+}

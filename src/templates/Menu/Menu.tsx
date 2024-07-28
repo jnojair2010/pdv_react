@@ -6,18 +6,23 @@ import {Link} from 'react-router-dom';
 class Menu extends Component{
 
     state ={
-        menuProduto:true,  menuCadastro:true, menuVenda:true, menuLogin:true
+        menuProduto:true,
+        menuCadastro:true,
+        menuVenda:true,
+        menuLogin:true,
+        menuMobile: true
     }
     
     handleApresentarMenu(element:string){
-        const {menuCadastro, menuLogin, menuProduto, menuVenda} = this.state;
+        const {menuCadastro, menuLogin, menuProduto, menuVenda, menuMobile} = this.state;
 
         if(element ==="Produtos"){
             this.setState({
                menuProduto:!menuProduto,
                menuCadastro:true,
                menuLogin:true,
-               menuVenda:true
+               menuVenda:true,
+               menuMobile:true
             });
 
         }else if(element ==="Cadastro"){
@@ -25,7 +30,8 @@ class Menu extends Component{
                 menuCadastro:!menuCadastro,
                 menuLogin:true,
                 menuProduto:true,
-                menuVenda:true
+                menuVenda:true,
+                menuMobile:true
             })
         }else if(element ==="Venda"){
             this.setState({
@@ -33,19 +39,36 @@ class Menu extends Component{
                 menuCadastro:true,
                 menuLogin:true,
                 menuProduto:true,
+                menuMobile:true
 
             })
         }
       //  this.setState({showSubMenu:!showSubMenu})
     }
     handleEsconderMenu(){
-        const {menuCadastro, menuLogin, menuProduto, menuVenda} = this.state;
+        const {menuCadastro, menuLogin, menuProduto, menuVenda, menuMobile} = this.state;
         this.setState({
             menuCadastro:false,
             menuLogin:false,
             menuProduto:false,
-            menuVenda:false
+            menuVenda:false,
+            menuMobile:true
+           
         })
+    }
+    handleClickMenuMobile(){
+        const { menuMobile} = this.state;
+    
+        if(menuMobile==true){
+            this.setState({
+                menuMobile : false
+            })
+        }else{
+            this.setState({
+                menuMobile : true
+            })
+        }
+       
     }
 
   
@@ -57,33 +80,56 @@ class Menu extends Component{
     }
 
      render(){
-        const {menuCadastro, menuLogin, menuProduto, menuVenda} = this.state;
+        const {menuCadastro, menuLogin, menuProduto, menuVenda, menuMobile} = this.state;
         return(
-            <header className="menu">
-            <nav>
-                <ul>
-                    <li><Link to='/'>Home</Link></li>
-                    <li  onClick={()=>this.handleApresentarMenu('Produtos')} > <Link to='produtos'>Produtos</Link>
-                    </li>
-                    <li onClick={()=>this.handleApresentarMenu('Cadastro')}><Link to='cadastro' id="Cadastro">Cadastro</Link>
-                        <ul className={menuCadastro? "subMenuOn":"subMenuOff"}>
-                            <li onClick={()=>this.handleEsconderMenu}>nova loja</li>
-                            <li onClick={()=>this.handleEsconderMenu}>Colaborador</li>
-                            <li onClick={()=>this.handleEsconderMenu}>Categoria</li>
-                            <li onClick={()=>this.handleEsconderMenu}>Fornecedor</li>
-                        </ul>
-                    </li>
-                    <li onClick={()=>this.handleApresentarMenu('Venda')}><Link to="venda" id="Venda">
-                    Venda
-                        <ul className={menuVenda? "subMenuOn":"subMenuOff"}>
-                            <li onClick={()=>this.handleEsconderMenu} >Nova</li>
-                            <li onClick={()=>this.handleEsconderMenu}>Consultar</li>
-                        </ul>
-                    </Link></li>
-                    <li><Link to='login'>login</Link></li>
-                </ul>
-            </nav>
-        </header>
+            <header className={ menuMobile? "menu": "menuMobileAtivo"}>
+                <div onClick={()=>this.handleClickMenuMobile()} id="menuMobile">
+                </div>
+
+                <nav id="navMobile">
+                    <ul>
+                        <Link to='/'> <li onClick={()=>this.handleApresentarMenu('Produtos')}>Home</li></Link>
+                        <Link to='produtos'> 
+                            <li  onClick={()=>this.handleApresentarMenu('Produtos')} > Produtos
+                            </li>
+                        </Link>
+                        <Link to='cadastro' >
+                            <li id="Cadastro" onClick={()=>this.handleApresentarMenu('Cadastro')}>Cadastro</li>
+                        </Link>
+                        <Link to="venda" >
+                            <li id="Venda" onClick={()=>this.handleApresentarMenu('Venda')}>Venda
+                                <ul className={menuVenda? "subMenuOn":"subMenuOff"}>
+                                    <li onClick={()=>this.handleEsconderMenu} >Nova</li>
+                                    <li onClick={()=>this.handleEsconderMenu}>Consultar</li>
+                                </ul>
+                            </li>
+                        </Link>
+                        <Link to='login'><li>login</li></Link>
+                    </ul>
+                </nav>
+
+                <nav id="navDesktop">
+                    <ul>
+                        <Link to='/'> <li>Home</li></Link>
+                        <Link to='produtos'> 
+                            <li  onClick={()=>this.handleApresentarMenu('Produtos')} > Produtos
+                            </li>
+                        </Link>
+                        <Link to='cadastro' >
+                            <li id="Cadastro" onClick={()=>this.handleApresentarMenu('Cadastro')}>Cadastro</li>
+                        </Link>
+                        <Link to="venda" >
+                            <li id="Venda" onClick={()=>this.handleApresentarMenu('Venda')}>Venda
+                                <ul className={menuVenda? "subMenuOn":"subMenuOff"}>
+                                    <li onClick={()=>this.handleEsconderMenu} >Nova</li>
+                                    <li onClick={()=>this.handleEsconderMenu}>Consultar</li>
+                                </ul>
+                            </li>
+                        </Link>
+                        <Link to='login'><li>login</li></Link>
+                    </ul>
+                </nav>
+            </header>
         )
      }
 

@@ -1,5 +1,270 @@
-.divCadastro{
-    width: 100px;
-    height: 100px;
-    background-color: brown;
+
+@media (max-width: 3840px) {
+        
+    .divCadastro #bodyCadastro{
+        width: 100%;
+    }
+    .divCadastro{
+        width: 95%;
+        height: 92vh;
+        background-color: #424242;
+        margin: 6px auto 0px auto;
+        display: flex;
+    }
+    .menuCadastro{
+        width: 300px;
+        height: 92vh;
+        background-color: #151717;
+    }
+    .menuCadastro  header{
+        background-color: none;
+        margin: 0px;
+    
+    }
+    .menuCadastro nav{
+        background-color: none;
+        margin: 0px;
+    
+    
+    }
+    .menuCadastro nav ul{
+        width: 100%;
+        display:inline-block;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .menCadastro{
+        width: 94%;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:white;
+        background-color:  #004d40;
+    }
+    .menCadastro:hover{
+        box-shadow: 1px 1px 5px 2px #eceff1;
+    }
+
 }
+@media (max-width: 2560px) {
+
+        
+    .divCadastro #bodyCadastro{
+        width: 100%;
+    }
+    .divCadastro{
+        width: 95%;
+        height: 92vh;
+        background-color: #424242;
+        margin: 6px auto 0px auto;
+        display: flex;
+    }
+    .menuCadastro{
+        width: 300px;
+        height: 92vh;
+        background-color: #151717;
+    }
+    .menuCadastro  header{
+        background-color: none;
+        margin: 0px;
+    
+    }
+    .menuCadastro nav{
+        background-color: none;
+        margin: 0px;
+    
+    
+    }
+    .menuCadastro nav ul{
+        width: 100%;
+        display:inline-block;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .menCadastro{
+        width: 94%;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:white;
+        background-color:  #004d40;
+    }
+    .menCadastro:hover{
+        box-shadow: 1px 1px 5px 2px #eceff1;
+    }
+}
+
+@media (max-width: 1920px) {
+
+        
+    .divCadastro #bodyCadastro{
+        width: 100%;
+    }
+    .divCadastro{
+        width: 95%;
+        height: 92vh;
+        background-color: #424242;
+        margin: 6px auto 0px auto;
+        display: flex;
+    }
+    .menuCadastro{
+        width: 300px;
+        height: 92vh;
+        background-color: #151717;
+    }
+    .menuCadastro  header{
+        background-color: none;
+        margin: 0px;
+    
+    }
+    .menuCadastro nav{
+        background-color: none;
+        margin: 0px;
+    
+    
+    }
+    .menuCadastro nav ul{
+        width: 100%;
+        display:inline-block;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .menCadastro{
+        width: 94%;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:white;
+        background-color:  #004d40;
+    }
+    .menCadastro:hover{
+        box-shadow: 1px 1px 5px 2px #eceff1;
+    }
+
+}
+
+@media (max-width: 1500px) {
+    
+    .divCadastro #bodyCadastro{
+        width: 100%;
+    }
+    .divCadastro{
+        width: 95%;
+        height: 92vh;
+        background-color: #424242;
+        margin: 6px auto 0px auto;
+        display: flex;
+    }
+    .menuCadastro{
+        width: 300px;
+        height: 92vh;
+        background-color: #151717;
+    }
+    .menuCadastro  header{
+        background-color: none;
+        margin: 0px;
+    
+    }
+    .menuCadastro nav{
+        background-color: none;
+        margin: 0px;
+    
+    
+    }
+    .menuCadastro nav ul{
+        width: 100%;
+        display:inline-block;
+        margin: 0px;
+        padding-left: 0px;
+    }
+
+    .menCadastro{
+        width: 94%;
+        height: 35px;
+        margin-top: 20px;
+        margin-left: 5px;
+        color:white;
+        background-color:  #004d40;
+    }
+    .menCadastro:hover{
+        box-shadow: 1px 1px 5px 2px #eceff1;
+    }
+
+}
+
+
+@media (max-width: 1499px) {
+
+    
+.divCadastro #bodyCadastro{
+    width: 100%;
+
+}
+.divCadastro{
+    width: 95%;
+    height: 92vh;
+    background-color: #424242;
+    margin: 6px auto 0px auto;
+    display: flex;
+}
+.menuCadastro{
+    width: 250px;
+    height: 92vh;
+    background-color: #151717;
+}
+.menuCadastro  header{
+    background-color: none;
+    margin: 0px;
+   
+}
+.menuCadastro nav{
+    background-color: none;
+    margin: 0px;
+   
+   
+}
+.menuCadastro nav ul{
+    width: 100%;
+    display:inline-block;
+    margin: 0px;
+    padding-left: 0px;
+}
+
+.menCadastro{
+    width: 94%;
+    height: 35px;
+    margin-top: 20px;
+    margin-left: 5px;
+    color:white;
+    background-color:  #004d40;
+}
+.menCadastro:hover{
+    box-shadow: 1px 1px 5px 2px #eceff1;
+}
+
+}
+
+/*
+
+
+@media (max-width: 3840px) {
+
+}
+@media (max-width: 2560px) {
+
+}
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1500px) {
+}
+@media (max-width: 1499px) {
+}
+
+*/
+

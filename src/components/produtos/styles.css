@@ -1,61 +1,383 @@
-.divForm{
-    width: 80%;
-    margin: 12px auto 10px auto;
-    background-color: aliceblue;
-    padding-top: 8px;
-    padding-left: 10px;
+@media (max-width: 3840px) {
+    .divForm{
+        width: 80%;
+        margin: 12px auto 10px auto;
+        background-color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .divInputs{
+        display: grid;
+        grid-template-columns: 90px 91%;
+        margin-top: 22px;
+    }
+    #titulo{
+        width: 90%;
+        height:50px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        margin: 15px auto auto auto;
+        background-color: #0B2545;
+        box-shadow: 1px 1px 5px 1px white;
+        color:white;
+    }
+    
+    .span{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .inputs{
+        height: 40px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .inputsTextArea{
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #00b8d4 ;
+        margin-left: 45%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
-.divInputs{
-    display: grid;
-    grid-template-columns: 90px 91%;
-    margin-top: 22px;
-}
-#titulo{
-    width: 80%;
-    height:50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 5px;
-    margin: 15px auto auto auto;
-    background-color: #0B2545;
-    box-shadow: 1px 1px 5px 1px white;
-    color:white;
+@media (max-width: 2560px) {
+    .divForm{
+        width: 80%;
+        margin: 12px auto 10px auto;
+        background-color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .divInputs{
+        display: grid;
+        grid-template-columns: 90px 91%;
+        margin-top: 22px;
+    }
+    #titulo{
+        width: 80%;
+        height:50px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        margin: 15px auto auto auto;
+        background-color: #0B2545;
+        box-shadow: 1px 1px 5px 1px white;
+        color:white;
+    }
+    
+    .span{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .inputs{
+        height: 40px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .inputsTextArea{
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #00b8d4 ;
+        margin-left: 45%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
 
-.span{
-    display: block;
-    height: 35px;
-    border: 1px solid #9e9e9e;
-    text-align: center;
-    padding-top: 6px;
-    justify-content: center;
-    box-shadow: 5px 10px 10px #888888;
+@media (max-width: 1920px) {
+    .divForm{
+        width: 80%;
+        margin: 12px auto 10px auto;
+        background-color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .divInputs{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 90px 91%;
+        margin-top: 22px;
+    }
+    #titulo{
+        width: 80%;
+        height:50px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        margin: 15px auto auto auto;
+        background-color: #0B2545;
+        box-shadow: 1px 1px 5px 1px white;
+        color:white;
+    }
+    
+    .span{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .inputs{
+        height: 40px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .inputsTextArea{
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #00b8d4 ;
+        margin-left: 45%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
-.inputs{
-    height: 40px;
-    padding-left: 15px;
-    box-shadow: 5px 5px 2px #888888;
-    margin-left: 5px;
-    font-size: 20px;
+
+@media (max-width: 1500px) {
+    .divForm{
+        width: 80%;
+        margin: 12px auto 10px auto;
+        background-color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .divInputs{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 90px 91%;
+        margin-top: 22px;
+    }
+    #titulo{
+        width: 90%;
+        height:50px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        margin: 15px auto auto auto;
+        background-color: #0B2545;
+        box-shadow: 1px 1px 5px 1px white;
+        color:white;
+    }
+    
+    .span{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .inputs{
+        height: 40px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .inputsTextArea{
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #00b8d4 ;
+        margin-left: 45%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
-.inputsTextArea{
-    padding-left: 15px;
-    box-shadow: 5px 5px 2px #888888;
-    margin-left: 5px;
-    font-size: 20px;
+@media (max-width: 1499px) {
+    .divForm{
+        width: 90%;
+        margin: 12px auto 10px auto;
+        background-color: aliceblue;
+        padding-top: 8px;
+        padding-left: 10px;
+    }
+    .divInputs{
+        width: 95%;
+        display: grid;
+        grid-template-columns: 90px 91%;
+        margin-top: 22px;
+    }
+    #titulo{
+        width: 90%;
+        height:50px;
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 30px;
+        padding-top: 5px;
+        margin: 15px auto auto auto;
+        background-color: #0B2545;
+        box-shadow: 1px 1px 5px 1px white;
+        color:white;
+    }
+    
+    .span{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .inputs{
+        height: 40px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .inputsTextArea{
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    .btn{
+        width: 200px;
+        height: 40px;
+        margin-top: 20px;
+        background-color: #00b8d4 ;
+        margin-left: 45%;
+        font-size: 20px;
+        margin-bottom: 25px;
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
-.btn{
-    width: 200px;
-    height: 40px;
-    margin-top: 20px;
-    background-color: #00b8d4 ;
-    margin-left: 45%;
-    font-size: 20px;
-    margin-bottom: 25px;
+
+@media (max-width: 1366px) {
+
+    .divForm{
+        width: 95%;
+    }
+    .divInputs{
+        width: 93%;
+
+    }
+
 }
-.btn:hover{
-    cursor: pointer;
-    margin-top: 23px;
-    box-shadow: 5px 5px 10px #888888;
+
+@media (max-width: 1000px) {
+
+    .divForm{
+        width: 95%;
+    }
+    .divInputs{
+        width: 93%;
+    }
+
 }
+@media (max-width: 950px) {
+    .divForm{
+        width: 95%;
+    }
+    .divInputs{
+        width: 90%;
+    }
+
+
+}
+@media (max-width: 854px) {
+
+    .divForm{
+        width: 95%;
+    }
+    .divInputs{
+        width: 90%;
+    }
+}
+
+/*
+@media (max-width: 3840px) {
+
+}
+@media (max-width: 2560px) {
+
+}
+
+@media (max-width: 1920px) {
+
+}
+
+@media (max-width: 1500px) {
+}
+@media (max-width: 1499px) {
+}
+
+
+*/
+

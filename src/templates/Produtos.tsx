@@ -9,19 +9,21 @@ export const Produtos = ()=>{
     
     const params = useParams();
 
+
+
     if(params.cadProdutos =="cadProdutos"){
         console.log(params);
     }
 
         return (
-            <div className="produtos">
+            <div id="produtos">
                 <div className="menuProdutos">
                     <header>
                         <nav>
                             <ul>
-                               <Link to="/produtos/cadProdutos"><li className="menProdutos">Cadastrar Produto</li></Link> 
-                               <Link to="/produtos/cadCategoria"><li className="menProdutos" >Cadastar Categoria</li></Link>
-                               <Link to="/produtos/consultar"><li className="menProdutos" >Consultar</li></Link>
+                                <Link to="/produtos/cadProdutos"><li className="menProdutos"> Cadastrar Produto</li></Link> 
+                                <Link to="/produtos/cadCategoria"><li className="menProdutos" >Cadastar Categoria</li></Link>
+                                <Link to="/produtos/consultar"><li className="menProdutos" >Consultar</li></Link>
                             </ul>
                         </nav>
                     </header>

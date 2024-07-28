@@ -3,7 +3,7 @@ import Person from './Person'
 
 export default class Usuario{
 
-    static professionActivity:string;
+    static professionActivityAdmin:boolean=false;
     static login:string;
     static password:string;
     static status:string;

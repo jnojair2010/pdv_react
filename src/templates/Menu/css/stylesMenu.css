@@ -1,51 +1,435 @@
-header{
-    width: 100%;
-    height: 50px;
-    margin-top: 0px;
-    padding-top: 20px;
-    background-color: rgb(34, 31, 31);
-}
-header nav ul{
-    width: 50%;
-    margin-top: 0px;
-    display: grid;
-    grid-auto-flow: column;
-    color: white;
+
+@media (max-width: 3840px) {
+        #navMobile{
+            display: none;
+        }
+            
+        header{
+            width: 100%;
+            height: 50px;
+            margin-top: 0px;
+            padding-top: 20px;
+            background-color: rgb(34, 31, 31);
+        }
+        header nav ul{
+            width: 50%;
+            margin-top: 0px;
+            display: grid;
+            grid-auto-flow: column;
+            color: white;
+
+        }
+        header nav ul li{
+            width: 250px;
+            height: 30px;
+            padding-top: 5px;
+            margin-left:5px;
+            margin-right: 5px;
+            display: inline-block;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: 1px solid white;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            
+        }
+        .menuCadastro{
+            width: 300px;
+        }
+        .menCadastro{
+            width: 300px;
+        }
+
+        #li-venda{
+
+        }
+        .subMenuOn{
+            display: none;
+            
+        }
+        .subMenuOff{
+            width: 250px;
+            background-color: rgb(34, 31, 31);
+            margin:12px 0px 0px 0px;
+            padding: 0px;
+            display: grid;
+            grid-auto-flow: row;
+        }
+        .subMenuOff li{
+            margin:2px 0px 0px 0px;
+        }
 
 }
-header nav ul li{
-    width: 250px;
-    height: 30px;
-    padding-top: 5px;
-    margin-left:5px;
-    margin-right: 5px;
-    display: inline-block;
-    text-transform: uppercase;
-    cursor: pointer;
-    border: 1px solid white;
-    text-align: center;
+@media (max-width: 2560px) {
+        #navMobile{
+            display: none;
+        }
+        header{
+            width: 100%;
+            height: 50px;
+            margin-top: 0px;
+            padding-top: 20px;
+            background-color: rgb(34, 31, 31);
+        }
+        header nav ul{
+            width: 50%;
+            margin-top: 0px;
+            display: grid;
+            grid-auto-flow: column;
+            color: white;
+
+        }
+        header nav ul li{
+            width: 250px;
+            height: 30px;
+            padding-top: 5px;
+            margin-left:5px;
+            margin-right: 5px;
+            display: inline-block;
+            text-transform: uppercase;
+            cursor: pointer;
+            border: 1px solid white;
+            text-align: center;
+            color: white;
+            text-decoration: none;
+            
+        }
+        .menuCadastro{
+            width: 300px;
+        }
+        .menCadastro{
+            width: 300px;
+        }
+
+        #li-venda{
+
+        }
+        .subMenuOn{
+            display: none;
+            
+        }
+        .subMenuOff{
+            width: 250px;
+            background-color: rgb(34, 31, 31);
+            margin:12px 0px 0px 0px;
+            padding: 0px;
+            display: grid;
+            grid-auto-flow: row;
+        }
+        .subMenuOff li{
+            margin:2px 0px 0px 0px;
+        }
+
+
+}
+
+@media (max-width: 1920px) {
+    #navMobile{
+        display:none;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        margin-top: 0px;
+        padding-top: 20px;
+        background-color: rgb(34, 31, 31);
+    }
+    header nav ul{
+        width: 50%;
+        margin-top: 0px;
+        display: grid;
+        grid-auto-flow: column;
+        color: white;
+    
+    }
+    header nav ul li{
+        width: 250px;
+        height: 30px;
+        padding-top: 5px;
+        margin-left:5px;
+        margin-right: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
+    
+    #li-venda{
+    
+    }
+    .subMenuOn{
+        display: none;
+        
+    }
+    .subMenuOff{
+        width: 250px;
+        background-color: rgb(34, 31, 31);
+        margin:12px 0px 0px 0px;
+        padding: 0px;
+        display: grid;
+        grid-auto-flow: row;
+    }
+    .subMenuOff li{
+        margin:2px 0px 0px 0px;
+    }
+    
+
+}
+@media (max-width: 1500px) {
+
+    #navMobile{
+        display: none;
+    }
+    header{
+        width: 100%;
+        height: 50px;
+        margin-top: 0px;
+        padding-top: 20px;
+        background-color: rgb(34, 31, 31);
+    }
+    header nav ul{
+        width: 50%;
+        margin-top: 0px;
+        display: grid;
+        grid-auto-flow: column;
+        color: white;
+    
+    }
+    header nav ul li{
+        width: 250px;
+        height: 30px;
+        padding-top: 5px;
+        margin-left:5px;
+        margin-right: 5px;
+        display: inline-block;
+        text-transform: uppercase;
+        cursor: pointer;
+        border: 1px solid white;
+        text-align: center;
+        color: white;
+        text-decoration: none;
+        
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
+    
+    #li-venda{
+    
+    }
+    .subMenuOn{
+        display: none;
+        
+    }
+    .subMenuOff{
+        width: 250px;
+        background-color: rgb(34, 31, 31);
+        margin:12px 0px 0px 0px;
+        padding: 0px;
+        display: grid;
+        grid-auto-flow: row;
+    }
+    .subMenuOff li{
+        margin:2px 0px 0px 0px;
+    }
+}
+
+@media (max-width: 1499px) {
+    #navMobile{
+        display: none;
+    }
+
+    header{
+        width: 100%;
+
+    }
+    header nav ul{
+        width: 100%;
+
+    }
+    header nav ul li{
+        width: 200px;
+
+        
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
+    
+
+
+}
+
+@media (max-width: 1366px) {
+    #navMobile{
+        display: none;
+    }
+    
+    .menu{
+        width: 100%;
+    }
+    .menu nav{
+        width: 100%;
+     
+    }
+    .menu nav ul{
+        width: 80%;
+
+    }
+    .menu nav ul li{
+        width: 150px;
+
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
+       
+
+
+}
+
+
+@media (max-width: 1000px) {
+    #navMobile{
+        display: none;
+    }
+    header{
+        width: 150%;
+        margin-top: 4px;
+
+    }
+    header nav ul{
+        width: 100%;
+
+    }
+    header nav ul li{
+        width: 160px;
+
+        
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
+
+
+}
+@media (max-width: 854px) {
+    #navMobile{
+            display: none;
+    }
+    
+    header{
+        width: 100%;
+        margin-top: 2px;
+
+    }
+    header nav ul{
+        width:100%;
+
+    }
+    header nav ul li{
+        width: 100px;
+        
+    }
+    .menuCadastro{
+        width: 300px;
+    }
+    .menCadastro{
+        width: 300px;
+    }
     
 }
-header nav ul li a{
-    color: white;
-    text-decoration: none;
+@media (max-width: 799px) {
+
+    #menuMobile{
+        width: 45px;
+        height: 45px;
+        background-color: black;
+        display: block;
+        margin-top: -18px;
+        float: right;
+        position: relative;
+        margin-right: -45px;
+        cursor: pointer;
+        padding: 0px;
+        background-image:  url("../../../icon/menuMobile.svg");
+        background-repeat: no-repeat;
+        background-size: 45px 45px;
+    }
+
+
+    #navMobile{
+        display: block;
+
+    }
+    .menu{
+        margin-left: -200px;
+    }
+    .menuMobileAtivo{
+        margin-left: 0px;
+    }
+    #navDesktop{
+        display: none;
+        width: 200px;
+        height: 100vh;
+        margin-top: 2px;
+    }
+
+    .menu{
+        width: 200px;
+        height: 100vh;
+        margin-top: 2px;
+        transition-duration: 1.5s;
+    }
+    .menuMobileAtivo{
+        width: 200px;
+        height: 100vh;
+        margin-top: 2px;
+        transition-duration: 1.5s;
+    }
+    #navMobile{
+        width: 200px;
+        padding-top: 0px;
+    }
+    #navMobile ul{
+        width: 97%;
+        display: grid;
+        grid-auto-flow: row;
+        padding: 0px;
+        margin-top: -11px;
+        margin-left: 5px;
+        float: left;
+        padding-bottom: 10px;
+    }
+    #navMobile ul li{
+        width: 93%;
+        margin-top: 5px;
+        position: relative;
+    }
+   
+
 }
 
-#li-venda{
-
-}
-.subMenuOn{
-    display: none;
-    
-}
-.subMenuOff{
-    width: 250px;
-    background-color: brown;
-    margin:12px 0px 0px 0px;
-    padding: 0px;
-    display: grid;
-    grid-auto-flow: row;
-}
-.subMenuOff li{
-    margin:2px 0px 0px 0px;
-}

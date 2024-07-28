@@ -1,5 +1,6 @@
 import React from "react";
 import './styles.css'
+import Usuario from'../model/Usuario';
 
 
 export const FormCadastroProduto = () =>{
@@ -40,12 +41,22 @@ export const FormCadastroProduto = () =>{
                         </div>
                         <input type="number" placeholder="Preço de Venda" min="1" max="5" className="inputs" />
                     </div>
-                    <div className="divInputs">
-                        <div>
-                        <span className="span">Price to buy:</span>
+
+                    {
+                        Usuario.professionActivityAdmin?
+                        <div className="divInputs">
+                            <div>
+                            <span className="span">Price to buy:</span>
+                            </div>
+                            <input type="number" placeholder="Preço de compra" min="1" max="5" className="inputs"/>
                         </div>
-                        <input type="number" placeholder="Prelo de compra" min="1" max="5" className="inputs" />
-                    </div>
+                        
+                        : ''
+
+                    }
+                    
+                    
+                 
                     <div className="divInputs">
                         <div>
                         <span className="span">Cod Barra:</span>
