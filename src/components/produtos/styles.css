@@ -40,7 +40,7 @@
         margin-left: 5px;
         font-size: 20px;
     }
-    .inputsTextArea{
+    #inputsTextArea{
         padding-left: 15px;
         box-shadow: 5px 5px 2px #888888;
         margin-left: 5px;
@@ -103,7 +103,7 @@
         margin-left: 5px;
         font-size: 20px;
     }
-    .inputsTextArea{
+    #inputsTextArea{
         padding-left: 15px;
         box-shadow: 5px 5px 2px #888888;
         margin-left: 5px;
@@ -168,7 +168,7 @@
         margin-left: 5px;
         font-size: 20px;
     }
-    .inputsTextArea{
+    #inputsTextArea{
         padding-left: 15px;
         box-shadow: 5px 5px 2px #888888;
         margin-left: 5px;
@@ -233,7 +233,7 @@
         margin-left: 5px;
         font-size: 20px;
     }
-    .inputsTextArea{
+    #inputsTextArea{
         padding-left: 15px;
         box-shadow: 5px 5px 2px #888888;
         margin-left: 5px;
@@ -297,7 +297,7 @@
         margin-left: 5px;
         font-size: 20px;
     }
-    .inputsTextArea{
+    #inputsTextArea{
         padding-left: 15px;
         box-shadow: 5px 5px 2px #888888;
         margin-left: 5px;
@@ -378,7 +378,7 @@
     }
     .span{
         width: 98%;
-        font-size: 12px;
+        font-size: 15px;
         height: 10px;
         text-align: left;
         border: none;
@@ -394,7 +394,26 @@
         border: solid 1px black;
         margin-left: 5px;
     }
+    #inputsTextArea{
+        width: 90%;
+        margin-top: 10px;
+
+    }
+    .btn{
+        width: 30%;
+        height: 40px;
+        margin: 20px 35% 25px 35%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    
+    }
+    .btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
 }
+
 
 /*
 @media (max-width: 3840px) {

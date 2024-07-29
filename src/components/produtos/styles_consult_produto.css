@@ -1,49 +1,202 @@
 
-#titulo{
-    width: 80%;
-    height:50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    padding-top: 5px;
-    margin: 15px auto auto auto;
-    background-color: #0B2545;
-    box-shadow: 1px 1px 5px 1px white;
-    color:white;
+@media (max-width: 3840px) {
+
+    #formConsultProduto{
+        width: 79%;
+        height: 700px;
+        padding: 10px ;
+        background-color: aliceblue;
+        margin: 15px auto auto auto;
+        display: grid;
+        grid-template-columns: 50% 50%;
+        
+    }
+    .idvsInputConsultProduto{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 15% 0% 20%;
+        padding: 10px;
+        border: 2px solid #708090 ;
+        margin: 0px auto auto 8px;
+    }
+    .spanConsultar{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        margin-left: 4px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .btnConult{
+        width: 180px;
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 4px;
+        background-color: #00b8d4 ;
+        font-size: 25px;
+        cursor: pointer;
+    } 
+    .btnConult:hover{
+        width: 185px;
+        margin-top: 1px;
+        height: 43px;
+        margin-left: 27px;
+        box-shadow: 1px 1px 5px 1px #708090;
+        color: white;
+        background-color: #008080;
+    }
+
 }
-#formConsultProduto{
-    width: 79%;
-    height: 700px;
-    padding: 10px ;
-    background-color: aliceblue;
-    margin: 15px auto auto auto;
-    display: grid;
-    grid-template-columns: 50% 50%;
+@media (max-width: 2560px) {
+
+    #formConsultProduto{
+        width: 94%;
+        margin: 15px auto auto auto;
+        display: grid;
+        grid-template-columns: 53% 53%;
+        
+    }
+    .idvsInputConsultProduto{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 15% 50% 10%;
+        padding: 10px;
+        margin: 0px auto auto 4px;
+    }
+    .spanConsultar{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        margin-left: 4px;
+        justify-content: center;
+        box-shadow: 5px 10px 10px #888888;
+    }
+    .btnConult{
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 4px;
+
+        font-size: 25px;
+        cursor: pointer;
+    } 
+    .btnConult:hover{
+        width: 185px;
+        margin-top: 1px;
+        height: 43px;
+        margin-left: 27px;
+
+    }
     
 }
-.idvsInputConsultProduto{
-    width: 95%;
-    display: grid;
-    grid-template-columns: 15% 60% 20%;
-    padding: 10px;
-    border: 2px solid #708090 ;
-    margin: 0px auto auto 8px;
+
+@media (max-width: 1920px) {
+    #formConsultProduto{
+        width: 94%;
+        margin: 15px auto auto auto;
+        display: grid;
+        grid-template-columns: 53% 53%;
+        
+    }
+    .idvsInputConsultProduto{
+        width: 80%;
+        display: grid;
+        grid-template-columns: 15% 50% 8%;
+        padding: 10px;
+        margin: 0px auto auto 4px;
+    }
+    .btnConult{
+        height: 40px;
+        margin-left: 30px;
+        margin-top: 4px;
+
+        font-size: 25px;
+        cursor: pointer;
+    } 
+    .btnConult:hover{
+        width: 185px;
+        margin-top: 1px;
+        height: 43px;
+        margin-left: 27px;
+
+    }
+
 }
-.btnConult{
-    width: 180px;
-    height: 40px;
-    margin-left: 30px;
-    margin-top: 4px;
-    background-color: #00b8d4 ;
-    font-size: 25px;
-    cursor: pointer;
-} 
-.btnConult:hover{
-    width: 185px;
-    margin-top: 1px;
-    height: 43px;
-    margin-left: 27px;
-    box-shadow: 1px 1px 5px 1px #708090;
-    color: white;
-    background-color: #008080;
+@media (max-width: 1802px) {
+
+    .idvsInputConsultProduto{
+        width: 80%;
+        display: block;
+        padding: 10px;
+        margin: 0px auto auto 4px;
+    }
+    .inputs{
+        width: 96%;
+        margin-top: 15px;
+    }
+    .btnConult{
+        width: 30%;
+        height: 40px;
+        margin: 15px 35.7% auto 35.7%;
+        font-size: 25px;
+        cursor: pointer;
+    } 
+    .btnConult:hover{
+        width: 185px;
+        margin: 16px 35.7% auto 35.7%;
+        height: 43px;
+    }
 }
+
+@media (max-width: 1500px) {
+    #formConsultProduto{
+        width: 94%;
+        margin: 15px auto auto auto;
+        display: grid;
+        grid-template-columns: 53% 53%;
+        
+    }
+    .inputs{
+        width: 96%;
+        margin: 15px 4px auto auto;
+    }
+    .spanConsultar{
+        padding-top: 6px;
+        margin-left: 4px;
+   
+    }
+
+}
+@media (max-width: 1366px) {
+    #formConsultProduto{
+        width: 94%;
+        margin: 15px auto auto auto;
+        display: grid;
+        grid-template-columns: 53% 53%;
+        
+    }
+    .inputs{
+        width: 96%;
+        margin: 15px 4px auto auto;
+    }
+    .spanConsultar{
+        padding-top: 6px;
+        margin-left: 4px;
+   
+    }
+}
+@media (max-width: 1300px) {
+    #formConsultProduto{
+        width: 94%;
+        margin: 15px auto auto auto;
+        display:block; 
+    }
+    .idvsInputConsultProduto{
+        margin: 25px auto auto auto;
+    }
+}
+
+

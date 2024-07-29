@@ -9,14 +9,14 @@ export const CadastarCategoria = ()=>{
                 <h1 id="titulo"> Cadastrar Categoria</h1>
             </div>
             <div id="formCategoria">
-                    <div className="inputCategoria">
+                    <div id="inputCategoria">
                         <div>
-                        <span className="span">Category:</span>
+                        <span id="spanCategoria">Category:</span>
                         </div>
-                        <input type="text" placeholder="Categoria" className="inputs" />
+                        <input type="text" placeholder="Categoria" id="inputsCategoria" />
                     </div>
-                    <div >
-                        <input type="button" value="Salvar" className="btn" />
+                    <div id="divBtn">
+                        <input type="button" value="Salvar" id="btn" />
                     </div>
             </div>
         </div>

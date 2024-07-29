@@ -1,29 +1,289 @@
-#divCategoria{
-    display: grid;
-    grid-template-rows: auto;
+
+@media (max-width: 3840px) {
+
+    #titulo{
+        width: 95%;
+        font-size: 25px;
+    }
+
+    #formCategoria{
+        width: 95%;
+        height: 200px;
+        padding: 50px auto 50px auto;
+        background-color: aliceblue;
+        margin: 15px auto auto auto;
+    }
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 10% 89%;
+        margin-top: 22px;
+        margin: 22px auto 30px 30px;
+    }
+    #spanCategoria{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px #888888;
+
+    }
+    #inputsCategoria{
+        
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    #btn{
+        width: 25%;
+        height: 40px;
+        margin: 20px 37.5% auto 37.5%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    }
+    #btn:hover{
+        cursor: pointer;
+        margin-top: 23px;
+        box-shadow: 5px 5px 10px #888888;
+    }
+
+}
+@media (max-width: 2560px) {
+
+    
+    #formCategoria{
+        width: 95%;
+        height: 200px;
+        padding: 50px auto 50px auto;
+        background-color: aliceblue;
+        margin: 15px auto auto auto;
+    }
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 10% 89%;
+        margin-top: 22px;
+        margin: 22px auto 30px 30px;
+    }
+    #spanCategoria{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px #888888;
+
+    }
+    #inputsCategoria{
+        
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    #btn{
+        width: 25%;
+        height: 40px;
+        margin: 20px 37.5% auto 37.5%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    }
 }
 
-#titulo{
-    width: 80%;
-    height:50px;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
+@media (max-width: 1920px) {
+
+    #formCategoria{
+        width: 95%;
+        height: 200px;
+        padding: 50px auto 50px auto;
+        background-color: aliceblue;
+        margin: 15px auto auto auto;
+    }
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 10% 89%;
+        margin-top: 22px;
+        margin: 22px auto 30px 30px;
+    }
+    #spanCategoria{
+        display: block;
+        height: 35px;
+        border: 1px solid #9e9e9e;
+        text-align: center;
+        padding-top: 6px;
+        justify-content: center;
+        margin-top: 10px;
+        box-shadow: 5px 10px 10px #888888;
+
+    }
+    #inputsCategoria{
+        
+        height: 40px;
+        margin-top: 10px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        margin-left: 5px;
+        font-size: 20px;
+    }
+    #btn{
+        width: 25%;
+        height: 40px;
+        margin: 20px 37.5% auto 37.5%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 1500px) {
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #spanCategoria{
+    
+
+    }
+    #inputCategoria{  
+        margin-right: 5%;
+    
+    }
+    #btn{
+        width: 25%;
+        height: 40px;
+        margin: 20px 37.5% auto 37.5%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    }
+}
+@media (max-width: 1499px) {
+    
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #spanCategoria{
+    
+
+    }
+    #inputCategoria{  
+        margin-right: 5%;
+    
+    }
+}
+
+@media (max-width: 1000px) {
+
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #spanCategoria{
+    
+
+    }
+    #inputCategoria{  
+        margin-right: 5%;
+    
+    }
+
+}
+@media (max-width: 950px) {
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #spanCategoria{
+    
+
+    }
+    #inputCategoria{  
+        margin-right: 5%;
+    
+    }
+}
+@media (max-width: 854px) {
+    #inputCategoria{
+        display: grid;
+        grid-template-columns: 20% 80%;
+    }
+
+    #spanCategoria{
+
+    }
+    #inputCategoria{  
+        margin-right: 5%;
+    
+    }
+}
+
+@media (max-width: 799px) {
+
+    #titulo{
+        width: 95%;
+        font-size: 20px;
+    }
+    #formCategoria{
+        width: 95%;
+        height: 200px;
+        padding: 50px auto 50px auto;
+        background-color: aliceblue;
+        margin: 15px auto auto auto;
+    }
+    #inputCategoria{
+        width: 95%;
+        display:block;
+        margin: 22px auto 30px 5px;
+    }
+    #inputCategoria div{
     padding-top: 5px;
-    margin: 15px auto auto auto;
-    background-color: #0B2545;
-    box-shadow: 1px 1px 5px 1px white;
-    color:white;
-}
-#formCategoria{
-    width: 80%;
-    height: 200px;
-    padding: 50px auto 50px auto;
-    background-color: aliceblue;
-    margin: 15px auto auto auto;
-}
-.inputCategoria{
-    display: grid;
-    grid-template-columns: 90px 91%;
-    margin: 22px auto 30px 30px;
+    }
+    #spanCategoria{
+        width: 98%;
+        font-size: 12px;
+        height: 10px;
+        text-align: left;
+        border: none;
+        font-size: 15px;
+        box-shadow: none;
+        margin-top: 15px;
+        margin-left: 10px;
+    }
+    #inputsCategoria{
+        width: 98%;
+        height: 30px;
+        height: 35px;
+        margin-top: 25px;
+        padding-left: 15px;
+        box-shadow: 5px 5px 2px #888888;
+        border: solid 1px black;
+        margin-left: 5px;
+    }
+    #divBtn{
+    }
+
+    #btn{
+        width: 25%;
+        height: 40px;
+        margin: 10px 37.5% auto 37.5%;
+        background-color: #00b8d4 ;
+        font-size: 20px;
+    }
+    #btn:hover{
+        cursor: pointer;
+        margin-top: 8px;
+        box-shadow: 5px 5px 10px #888888;
+    }
+
 }

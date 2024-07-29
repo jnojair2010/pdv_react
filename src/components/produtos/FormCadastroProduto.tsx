@@ -85,7 +85,7 @@ export const FormCadastroProduto = () =>{
                         <div>
                         <span className="span">Descrition:</span>
                         </div>
-                        <textarea  placeholder="Descrição" className="inputsTextArea" ></textarea>
+                        <textarea  placeholder="Descrição" id="inputsTextArea" ></textarea>
                     </div>
                     <div >
                         <input type="button" value="Salvar" className="btn" />
